@@ -15,7 +15,7 @@ A base TypeScript Node project meant for problem exploration, interviewing, and 
 - Versioning
   - [Husky](https://typicode.github.io/husky/)
   - [commitlint](https://commitlint.js.org/)
-  - [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
+  - [standard-changelog](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/standard-changelog)
 
 ## Installation
 

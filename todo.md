@@ -7,6 +7,6 @@
 - [x] Fix build issues with typing (get rid of global and use index.d.ts instead)
   - [x] Use build scheme similar to starter project?
 - [ ] Add debugging setup
-- [ ] Add a changelog
+- [x] Add a changelog
 - [ ] Do I need to have users run some kind of Husky init after installing the repo
 - [ ] Try out [cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)
