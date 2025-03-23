@@ -1,0 +1,54 @@
+{
+  "name": "playground",
+  "version": "0.3.0",
+  "main": "bin/playground.mjs",
+  "type": "module",
+  "description": "A base TypeScript Node project meant for problem exploration, interviewing, and general noodling",
+  "bin": {
+    "playground": "bin/playground.mjs"
+  },
+  "scripts": {
+    "build": "tsc --build --clean && tsc --build",
+    "start": "node bin/playground.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "coverage": "vitest --coverage",
+    "lint": "eslint .",
+    "format": "npx prettier . --write",
+    "release": "standard-version",
+    "prepare": "husky",
+    "commit": "commit",
+    "version": "conventional-changelog -p angular && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliekai/playground.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliekai/playground/issues"
+  },
+  "homepage": "https://github.com/elliekai/playground#readme",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/prompt-cli": "^19.8.0",
+    "@commitlint/types": "19.8.0",
+    "@types/node": "22.13.11",
+    "@vitest/coverage-v8": "3.0.9",
+    "conventional-changelog": "6.0.0",
+    "cspell": "8.17.5",
+    "eslint": "9.23.0",
+    "eslint-config-prettier": "10.1.1",
+    "husky": "9.1.7",
+    "prettier": "3.5.3",
+    "tslib": "2.8.1",
+    "typescript": "5.8.2",
+    "typescript-eslint": "8.27.0",
+    "vitest": "3.0.9"
+  }
+}

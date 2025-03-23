@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
+  "language": "en",
+  "words": [
+    "commitlint",
+    "esnext",
+    "mkdir",
+    "prettierignore",
+    "sandboxed",
+    "untracked",
+    "Vitest"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "build/**",
+    "coverage/**",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "node_modules/**"
+  ]
+}

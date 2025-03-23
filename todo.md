@@ -1,0 +1,12 @@
+- [x] Add Vitest coverage report
+- [x] Add description to README
+- [x] Add description to package.json
+- [ ] Add commit linter?
+- [x] Test out being able to use bin in another local repo
+  - [x] Test out whether metrics work
+- [x] Fix build issues with typing (get rid of global and use index.d.ts instead)
+  - [x] Use build scheme similar to starter project?
+- [ ] Add debugging setup
+- [ ] Add a changelog
+- [ ] Do I need to have users run some kind of Husky init after installing the repo
+- [ ] Try out [cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)
