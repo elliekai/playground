@@ -10,3 +10,4 @@
 - [x] Add a changelog
 - [ ] Do I need to have users run some kind of Husky init after installing the repo
 - [ ] Try out [cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)
+- [ ] Add to README re: husk, making commits, and generating a changelog
