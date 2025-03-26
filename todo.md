@@ -1,13 +1,15 @@
 - [x] Add Vitest coverage report
 - [x] Add description to README
 - [x] Add description to package.json
-- [ ] Add commit linter?
+- [x] Add commit linter?
 - [x] Test out being able to use bin in another local repo
   - [x] Test out whether metrics work
 - [x] Fix build issues with typing (get rid of global and use index.d.ts instead)
   - [x] Use build scheme similar to starter project?
 - [ ] Add debugging setup
+- [ ] Add .env setup?
 - [x] Add a changelog
 - [ ] Do I need to have users run some kind of Husky init after installing the repo
+  - [ ] Add info to README as needed
 - [ ] Try out [cosmiconfig](https://github.com/cosmiconfig/cosmiconfig)
-- [ ] Add to README re: husk, making commits, and generating a changelog
+- [x] Add to README building, testing, starting, and generating a changelog
